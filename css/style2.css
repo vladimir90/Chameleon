@@ -1,0 +1,521 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+h1{
+font-family:'Source Sans Pro Bold', sans-serif;
+font-size: 48px;
+
+}
+
+h3{
+font-family: 'Source Sans Pro Regular', sans-serif;
+font-size: 36px;
+}
+
+h2,h4,h5,h6{
+font-family: 'Source Sans Pro Light', sans-serif;
+}
+a{
+font-family: 'Source Sans Pro Bold', sans-serif;
+}
+
+p{
+	font-family: 'Times New Roman', sans-serif;
+	font-size:24px;
+}
+div{
+	
+	
+}
+.wrapper{
+	width:1200px;
+	margin:0 auto;
+	
+	overflow: hidden;
+}
+
+/*===============================================================
+============================NAVIGATION======================
+================================================*/
+#clear{
+	background-color: #000;
+	height:50px;
+	
+}
+.nav{
+	position:fixed;
+	background-color: rgba(00, 00, 00, 0.8);
+	width:1200px;
+	border-bottom:5px solid #6f429a;
+
+	margin:0;
+	
+}
+.nav ul{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	float:right;
+	width:620px;
+	
+	
+	
+}
+.nav li{
+	list-style-type: none;
+	
+	text-align: center;
+	width:155px;
+	float:left;
+	
+}
+.nav a{
+	text-decoration: none;
+	font-size:14px;
+	font-family: 'Source Sans Pro Bold', sans-serif;
+	display:block;
+	padding: 40px 20px 15px 25px;
+	color:#fff;
+	font-weight: 600;
+}
+
+.nav a:hover{
+	
+	color:#efff6d;
+	
+}
+
+/*======================================================
+===================================================
+=========SECTION 1================================
+============================*/
+
+#section1{
+	width:100%;
+	clear: both;
+	height:600px;
+	background-image: url('../img/came.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 600px;
+
+
+}
+.header{
+	
+	padding:70px 50px 50px 50px;
+	background-color: rgba(239, 255, 109, 0.1);
+	
+
+	
+	
+	
+	
+
+
+}
+.sec1-cont{
+	
+	width:400px;
+	text-align: center;
+	padding-bottom: 20px;
+
+	
+	
+	
+}
+
+.sec1-cont p{
+	color:#fff;
+	text-shadow: 2px 2px 10px #6f429a;
+	font-family: 'Source Sans Pro Regular', sans-serif;
+	font-size:38px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	line-height:50px;
+	
+
+}
+.sec1-cont a{
+	text-decoration: none;
+	color:#fff;
+	border:2px solid #6f429a;
+	padding: 15px 20px 15px 20px;
+
+
+}
+.sec1-cont a:hover{
+	color:#6f429a;
+	border:2px solid #fff;
+}
+
+/*============================================
+=============================================
+============SECTION 2========================*/
+
+#section2{
+ 	background-color: #6f429a;
+
+}
+#section2 h3{
+	color:#fff;
+	padding-bottom: 20px;
+	line-height: 30px;
+	font-size:24px;
+}
+.sec2-cont{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width:600px;
+	margin:0 auto;
+	text-align: center;
+
+}
+.sec2-cont a{
+	text-decoration: none;
+	color:#fff;
+	font-size:24px;
+	padding:15px 24px 15px 24px;
+	border:2px solid #fff;
+	border-radius: 100px;
+	font-family: 'Source Sans Pro Light', sans-serif;
+
+}
+.sec2-cont a:hover{
+	color:#6f429a;
+	background-color:#efff6d;
+	border:none;
+
+}
+
+/*============================================
+===============================================
+=============SECTION 3========================*/
+#section3{
+	margin-top: 100px;
+	
+	border-bottom:1px solid #bababa;
+}
+#section3 h1{
+	color:#6f429a;
+	font-family: 
+
+}
+#section3 h3{
+	color:#515151;
+}
+#section3 p{
+	color:#7e7e7e;
+	line-height: 30px;
+}
+.sec3-img img{
+	width:500px;
+	
+}
+.sec3-img{
+	width:600px;
+	text-align: center;
+	margin:0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*===================================================
+======================================================
+==============SECTION 4======================*/
+#section4{
+	overflow: hidden;
+}
+.green, .brown{
+	width:50%;
+	float:left;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.green img, .brown img{
+	width: 100px;
+	
+	padding-bottom: 50px;
+}
+#section4 h3{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:#515151;
+	font-size:24px;
+}
+.link1{
+	clear: both;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.link1 a{
+
+	text-decoration: none;
+	color:#7c7c7c;
+	font-size:24px;
+	padding:15px 24px 15px 24px;
+	border:2px solid #7c7c7c;
+	border-radius: 100px;
+	font-family: 'Source Sans Pro Light', sans-serif;
+}
+.link1 a:hover{
+	color:#fff;
+	background-color: #6f429a;
+	border:none;
+}
+.green:hover, .brown:hover{
+	background-color: #efefef;
+}
+
+/*================================================
+================================================
+==============SECTION 5=========================*/
+#section5{
+	background-color: #efff6d;
+	
+
+}
+.evo{
+	width:500px;
+	margin:0 auto;
+	text-align: center;
+}
+.evo h1{
+	color:#6f429a;
+	padding-top: 50px;
+	
+}
+.evo p{
+	color:#727272;
+	line-height: 30px;
+	padding-bottom: 50px;
+}
+.fact{
+	margin:0 auto;
+	color:#fff;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: #6f429a;
+
+}
+.fact  h3{
+	padding-top: 50px;
+	font-size:24px;
+	padding-bottom: 20px;
+}
+.fact a{
+	color:#000;
+	padding:10px 30px 10px 30px;
+	text-decoration: none;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.desc h1{
+	color:#6f429a;
+	text-align: center;
+	padding-top: 50px;
+}
+.dc{
+	width:800px;
+	margin:0 auto;
+	text-align: center;
+}
+.dc p{
+	line-height: 30px;
+	color:#727272;
+	padding-bottom: 50px
+}
+table{
+	margin:0 auto;
+	background-color: #303030;
+
+}
+
+td{
+	
+	width:400px;
+	height:300px;
+
+}
+.first{
+	border-bottom:5px ridge #efff6d;
+}
+.gal{
+	text-align: center;
+	padding-bottom: 100px;
+
+}
+.gal img{
+	width:400px;
+	height:300px;
+}
+.gal h1{
+	font-size:36px;
+	margin:0;
+	padding:10px 10px 0 10px;
+	color:#fff;
+}
+.gal h3{
+	margin:0;
+	padding:20px;
+	font-size:24px;
+	color:#efff6d;
+	font-family: 'Source Sans Pro Light', sans-serif;
+}
+.gal p{
+	color:#fff;
+	font-size:18px;
+	margin:0;
+	padding: 0 5px 5px 20px;
+	color:#727272;
+}
+/*=======================================
+=============================================
+==========SECTION 6==================*/
+#section6{
+	border-top:20px solid #6f429a;
+}
+#section6 h1{
+	padding-top: 50px;
+	color:#6f429a;
+
+}
+#section6 p{
+	color:#7e7e7e;
+	line-height: 30px;
+}
+.sec6-cont{
+	width:800px;
+	margin:0 auto;
+	text-align: center;
+	background-color: #f2f2f2;;
+	padding-bottom: 50px;
+	border-radius: 5px 5px 0 0;
+}
+.sec6-cont h3{
+	font-family: 'Source Sans Pro Regular', sans-serif;
+	color:#727272;
+	font-size:24px;
+	line-height: 40px;
+	padding:30px;
+
+}
+.sec6-cont a{
+	color:#fff;
+	padding:10px 30px 10px 30px;
+	text-decoration: none;
+	background-color: #727272;
+	border-radius: 5px;
+}
+/*===========================================================
+=======================================================
+==============SECTION 7=========================*/
+#section7{
+	background-color: #f2f2f2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#section7 h1{
+
+	text-align: center;
+	color:#2d2d2d;
+}
+#section7 p{
+	color:#7e7e7e;
+	line-height: 30px;
+	text-align: center;
+}
+/*===========================================
+======================================================
+=================FOOTER===============================*/
+#footer{
+	border-top:20px solid #6f429a;
+	background-color: #2d2d2d;
+}
+ .contact, .news{
+	width:30%;
+	float:left;
+	box-sizing: border-box;
+	margin-left:5%;
+}
+.contact{
+	text-align: center;
+}
+.team{
+	width:30%;
+	float:left;
+	box-sizing: border-box;
+	text-align: center;
+}
+#footer h1{
+	color:#fff;
+	border-bottom:1px solid #6f429a;
+	padding-top: 50px;
+	font-size: 18px;
+	
+
+}
+.team p{
+	color:#fff;
+	font-size:14px;
+	line-height: 20px;
+	text-align: justify;
+
+	
+
+}
+#footer h3{
+	color:#6f429a;
+	font-size:14px;
+
+}
+#footer a{
+	text-decoration: none;
+	color:#bef94e;
+}
+.contact p{
+	color:#fff;
+	font-size:18px;
+
+}
+.news p{
+	color:#fff;
+	font-size:14px;
+	line-height: 20px;
+	text-align: justify;
+}
+.news img{
+	width:20px;
+}
+.contact img{
+	width:20px;
+	padding-right:10px;
+}
+
+/*=========================================================
+=============================================================
+=======================COPY============================*/
+#copy{
+	background-color: #212121;
+
+}
+#copy p{
+	color:#848484;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	text-align: center;
+}
+#copy img{
+	width:30px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom: 10px;
+}
+.icons{
+	width:300px;
+	margin:0 auto;
+	text-align: center;
+}
